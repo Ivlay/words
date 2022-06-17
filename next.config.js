@@ -1,6 +1,5 @@
+/** @type {import('next').NextConfig} */
 module.exports = {
   poweredByHeader: false,
-  future: {
-    webpack5: true
-  },
+  swcMinify: true,
 }
